@@ -1,0 +1,111 @@
+
+body {
+  margin: 0;
+  background: #f0f8ff; /* very light blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #001f4d; /* navy blue */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 31, 77, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #003366; /* navy blue */
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 2px solid #6699cc; /* light blue border */
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  background-color: #003366; /* navy blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00509e; /* lighter navy blue */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #d1e3f8; /* subtle light blue */
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #003366;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 31, 77, 0.2);
+  text-align: center;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.logout-container {
+  margin-top: auto;
+  padding-top: 20px;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  background-color: white;
+  border: 2px solid #001f3f; /* Navy blue */
+  color: #001f3f; /* Navy blue text */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder {
+  color: #001f3f;
+  opacity: 0.6;
+}
